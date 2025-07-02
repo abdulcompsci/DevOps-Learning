@@ -1,6 +1,6 @@
-# Project Title
+# Linux notes
 
-Simple overview of use/purpose.
+This is where i will document my learning with linux, the things i learnt with commands everything with linux also the challenges and solidifying my knowledge with over the wire bandit game
 
 ## Description
 
