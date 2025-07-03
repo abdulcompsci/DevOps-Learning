@@ -35,7 +35,8 @@ Then copy the final ssh command in the instance you made
 
 ## Linux commands
 
-# Cheat sheet
+Cheat sheet
+
 
 
 ## Issues i faced
