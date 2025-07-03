@@ -33,7 +33,25 @@ linux chmod 400 ubuntu-20.pem
 
 Then copy the final ssh command in the instance you made
 
-## Linux commands
+## Linux notes
+Linux is an open source Operating system and is the backbone of computer systems and cloud infastructure
+
+It is widely used in networks,servers and is crucial some of its benefits are :
+* Cost effective
+* Customisable 
+* Popular choice for businesses and developers
+
+There is many different versions of linux e.g ubuntu fedora etc
+
+Virtualisation is a method to run ubuntu or other linux versions locally on your machine within its OS
+
+Terminal is a command line interface to interact with the operating system you can:
+* excutes commands
+* Manange files, users permissions etc
+* Require resources from the OS kernel
+* Provides control
+
+
 
 Cheat sheet
 
