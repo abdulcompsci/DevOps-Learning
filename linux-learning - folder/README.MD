@@ -33,7 +33,7 @@ linux chmod 400 ubuntu-20.pem
 
 Then copy the final ssh command in the instance you made
 
-# Linux notes
+## Notes
 Linux is an open source Operating system and is the backbone of computer systems and cloud infastructure
 
 It is widely used in networks,servers and is crucial some of its benefits are :
