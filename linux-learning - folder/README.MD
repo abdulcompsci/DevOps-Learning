@@ -31,6 +31,9 @@ code blocks for commands
 ## Help
 
 Any advise for common problems or issues.
+A common issue i was facing with linux is initally installing an ubuntu linux machine, it was constantly causing errors in booting up ubuntu, thankfully for CoderCo they offered al alternative to open an EC2 instance from AWS and connect a ubuntu instance through that.
+
+Another issue i spent is through the over the wire bandit game not using documentation and google enough i battled too long trying to solve,
 ```
 command to run if program contains helper info
 ```
