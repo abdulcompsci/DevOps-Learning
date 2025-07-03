@@ -15,10 +15,19 @@ An in-depth paragraph about your project and overview of use.
 
 ### Installing
 
-* How/where to download your program
-* Any modifications needed to be made to files/folders
+* log in to AWS and rent a virtual machine to run linux
+* Click on EC2 
+* Launch a new instance and give a name
+* Create a new key pair and download
+* Edit network setting in key pair to auto assign public IP
+* once in running state you can SSH into the instance
 
-Download ubuntu and set up a Virtual machine through AWS EC2 instance
+*SSH client
+* create a directory and copy the key pair into that new directory made
+run this command below :
+linux chmod 400 ubuntu-20.pem
+```
+* Then copy the final ssh command in the instance you made
 
 ### Executing program
 
