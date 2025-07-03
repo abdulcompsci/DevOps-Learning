@@ -25,7 +25,8 @@ An in-depth paragraph about your project and overview of use.
 *SSH client
 * create a directory and copy the key pair into that new directory made
 run this command below :
-linux chmod 400 ubuntu-20.pem
+
+## linux chmod 400 ubuntu-20.pem
 ```
 * Then copy the final ssh command in the instance you made
 
