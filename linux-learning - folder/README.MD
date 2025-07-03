@@ -22,7 +22,7 @@ An in-depth paragraph about your project and overview of use.
 * Edit network setting in key pair to auto assign public IP
 * once in running state you can SSH into the instance
 
-*SSH client
+SSH client
 * create a directory and copy the key pair into that new directory made
 run this command below :
 ```
