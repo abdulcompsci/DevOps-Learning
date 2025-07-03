@@ -51,6 +51,35 @@ Terminal is a command line interface to interact with the operating system you c
 * Require resources from the OS kernel
 * Provides control
 
+Linux comands are a instructiins that tells the OS what to do (Case sensitive)
+
+
+Commands:
+* Pwd - prints the current working directory
+* cd - change directory
+* ls - list content of directory
+* mkdir- creates new directory
+* rmdir - remvoves directory if empty
+* touch - creates file 
+* rm - removes file
+* echo - writing text to a file
+* cat - check the contents of a file
+* grep - search for patterns within a file4
+* mv - move or rename files/directories
+* Mkdir-p - nested directories (directories within a directory)
+
+** Note whenever removing or copying directories you use -r option to recursively do this
+
+Vim is a text editor tool within linux which is widely used text editor powerful for configuration files, it has an extensive feature set
+
+Vim contains 3 modes :
+* Command mode (deleting text copying etc)
+* Insert mode (insert text and edit)
+* visual mode (to view text in a visual way)
+
+
+
+
 
 
 Cheat sheet
