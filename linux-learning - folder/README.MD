@@ -74,8 +74,35 @@ Vim is a text editor tool within linux which is widely used text editor powerful
 
 Vim contains 3 modes :
 * Command mode (deleting text copying etc)
-* Insert mode (insert text and edit)
+* Insert mode (insert text and edit need to press i on keypad)
 * visual mode (to view text in a visual way)
+
+Ohmyzsh is a type of text editor of vim with many customisable options 
+ZSH is managed by a configuration file
+
+ZSHRC is a configuraiton file zsh (Anything related to ZSH is stored in .ZSHRC
+
+Vim allows us to change congigurations of our file such as ZSHRC for example syntax highlting, changing themes to powerlevel10k theme etc, it also a appealing UI and very helpful community as its one of the most popualar text editor configuration file
+
+### Vim shortcuts
+* wq! - save and exit vim file (w means save, q means quit and ! forces it to quit) ** important
+* h - left
+* j - down
+* k - up
+* or use up and down keys
+* o - beginning of file
+* $ - end of text
+* b - backwards
+* : line number (to jump to a specific line)
+* / (to search for a specific word)
+* n - next occurence (from original or first occurence)
+* N - previous occurence
+* dd - deltes line in a file
+* D - delets parts of file speciifed from cursor to end of line
+* Y or yank - copy line in a file
+* P paste then copied line
+* u - undo change
+* CTRL R - redo undo changes
 
 
 
