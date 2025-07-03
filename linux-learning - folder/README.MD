@@ -33,13 +33,8 @@ linux chmod 400 ubuntu-20.pem
 
 Then copy the final ssh command in the instance you made
 
-### Executing program
+## Linux notes
 
-* How to run the program
-* Step-by-step bullets
-```
-code blocks for commands
-```
 
 ## Issues i faced
 
