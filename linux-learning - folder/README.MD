@@ -29,7 +29,7 @@ run this command below :
 ```linux chmod 400 ubuntu-20.pem
 
 
-* Then copy the final ssh command in the instance you made
+Then copy the final ssh command in the instance you made
 
 ### Executing program
 
