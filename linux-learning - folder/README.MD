@@ -33,7 +33,9 @@ linux chmod 400 ubuntu-20.pem
 
 Then copy the final ssh command in the instance you made
 
-## Linux notes
+## Linux commands
+
+# Cheat sheet
 
 
 ## Issues i faced
