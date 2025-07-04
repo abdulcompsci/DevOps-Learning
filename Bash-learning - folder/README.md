@@ -23,7 +23,9 @@ Bash script is a file containing multiple commands you want the computer to excu
 This is a crucial aspect of devops because:
 * Automate tasks: Save time on repetitive actions
 * Manage systems: Handle files, software installs, and system configurations.
-* Boost efficiency: Get more done with less typing!
+* Boost efficiency: Get more done with less typing
+* Manipulate files
+  
 
 
 ## Notes
