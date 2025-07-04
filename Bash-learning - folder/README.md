@@ -7,13 +7,13 @@ This is where i will document my learning with Bash scripting thanks to CoderCo,
 
 ## Getting Started
 ```
-Shebang (#!):
-* The first line in your script: #!/bin/bash
-* It tells the computer to use Bash to run the script.
+1. Shebang (#!):
+- The first line in your script: #!/bin/bash
+- It tells the computer to use Bash to run the script.
 
-Run Your Script:
-* Make it executable: chmod +x your_script.sh (You learn this in the Linux Module)
-* Run it: ./your_script.sh
+2. Run Your Script:
+- Make it executable: chmod +x your_script.sh (You learn this in the Linux Module)
+- Run it: ./your_script.sh
 ```
 
 
