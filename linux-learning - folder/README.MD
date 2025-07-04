@@ -1,6 +1,6 @@
-# Linux notes
+# Linux Documentation
 
-This is where i will document my learning with linux, the things i learnt with commands everything with linux also the challenges and solidifying my knowledge with over the wire bandit game
+This is where i will document my learning with linux thanks to CoderCo, the things i learnt with commands everything with linux also the challenges and solidifying my knowledge with over the wire bandit game This serves as a detailed record of my Linux learning journey with CoderCo, covering linux fundamentals such as file system navigation etc, and practical exercises designed to solidify my skills through  gamified learning over the wire bandit.This serves both as a personal reference and as a way to track my growth in Linux.
 
 ## Cheat sheet
 ![Image](https://github.com/user-attachments/assets/68f3662b-977d-44d0-b895-dfdf581ef582)
