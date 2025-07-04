@@ -3,7 +3,7 @@
 This is where i will document my learning with Bash scripting thanks to CoderCo, the things i learnt with commands everything with Bash also the challenges and solidifying my knowledge with Bash battle arena. This serves as a detailed record of my Bash learning journey with CoderCo, covering the fundamentals  and practical exercises designed to solidify my skills.
 
 ## Cheat sheet
-
+[Bash document.pdf](https://github.com/user-attachments/files/21048841/Bash.document.pdf)
 
 ## Getting Started
 ```
