@@ -57,16 +57,30 @@ Linux comands are a instructiins that tells the OS what to do (Case sensitive)
 Commands:
 * Pwd - prints the current working directory
 * cd - change directory
-* ls - list content of directory
+* ls - list content of directory , ls -a shows hidden directories, ls -l tells you more information from files/directories
 * mkdir- creates new directory
 * rmdir - remvoves directory if empty
-* touch - creates file 
+* touch - creates empty file also updates timestamps of existing files
 * rm - removes file
 * echo - writing text to a file
-* cat - check the contents of a file
+* cat -  very popular combines multiple files together, check the contents of a file
 * grep - search for patterns within a file4
 * mv - move or rename files/directories
+* head - displayes first 10 lines of file 
+* tail - displays last 10 lines of a file
+* | pipe > passes argument of a first section command to the second
 * Mkdir-p - nested directories (directories within a directory)
+
+> operator overwrites existing content
+>> operator appends to existing content 
+CTRL D ends standard input 
+
+
+/ root directory is the top level base in linux everything runs from here
+ bin -> binary
+ boot -> kernel 
+
+ etc - System wide configurations 
 
 ** Note whenever removing or copying directories you use -r option to recursively do this
 
@@ -104,12 +118,34 @@ Vim allows us to change congigurations of our file such as ZSHRC for example syn
 * u - undo change
 * CTRL R - redo undo changes
 
+### Sudo
+sudo -> Super user do - elevated privileges that allows permitted user as a user user to run commands in order to perform adminstrive tasks e.g :
+* Adding,deleting users
+* Installing dependencies etc
 
+Usage -> prefix before command
+* Note you may sometimes may need to move to root user
 
+Sudosu - changes to root user (useful to run multiple commands using sudo permissions)
 
-
-
+** DANGEROUUS COMMAND WITH SUDO
+sudo rm -rf - removes entire systeme
 Cheat sheet
+
+Sudo commands:
+* sudo useradd user (makes a new user)
+* sudo userdel user (deletes a new user)
+* sudo userpasswd (makes password for new user)
+* su - switch user
+* sudo usermod -aG sudo newuser (grants user sudo privileges since user by default doesnt have sudo privileges
+* sudo deluser newuser sudo - removes sudo privileges
+* sudo groupadd devops - creates new group
+* sudo delgroup devops - delets group
+* sudo usermod -aG  devops newuser - adds a user to a specific group
+* sudo gpasswd -d newuser devops - removes user from group
+
+### File permissions
+! [rwx controls who read,write and excute files}
 
 
 
