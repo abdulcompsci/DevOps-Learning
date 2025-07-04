@@ -145,8 +145,7 @@ Sudo commands:
 * sudo gpasswd -d newuser devops - removes user from group
 
 ### File permissions
-! [rwx controls who read,write and excute files]
-(linux-learning - folder/Screenshot 2025-07-04 at 01.11.44.png) 
+! [image alt] (/Screenshot 2025-07-04 at 01.11.44.png) 
 
 
 
