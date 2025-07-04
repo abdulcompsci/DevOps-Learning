@@ -143,45 +143,31 @@ Sudo commands:
 * sudo delgroup devops - delets group
 * sudo usermod -aG  devops newuser - adds a user to a specific group
 * sudo gpasswd -d newuser devops - removes user from group
+* sudo chown newuser, example.txt - change permission of user to the file
+* Sudo chgrp admin2, example.txt - change permission of group to file
+* sudo chown ubuntu:users example.txt (chown can change users and groups)
 
 ### File permissions
 <img width="1239" alt="Image" src="https://github.com/user-attachments/assets/6386ce1b-62c3-4ace-bf47-f18e0113b28a" />
 Provides control and securtiy over files each rwx is binary 
 
+Chmod - changing permissions of files
+2 ways to do this
+1. Symbolic -> user,groups,others -> rwx
+2. Numeric -> octal
+
+chmod u+x,g+x, 0-r , adds excution to user and groups but removes read option for others
+
+### Standard streams
+3 types
+1. Standard input or stand in - provides inputs to program keyboard or redirected
+2. standard output -  where commands are displayed through terminal
+3. Standard error - displays error message
 
 ## Issues i faced
 
 A common issue i was facing with linux is initally installing an ubuntu linux machine, it was constantly causing errors in booting up ubuntu, thankfully for CoderCo they offered al alternative to open an EC2 instance from AWS and connect a ubuntu instance through that.
 
 Another issue i spent is through the over the wire bandit game not using documentation and google enough i battled too long trying to solve,
-```
-command to run if program contains helper info
-```
 
-## Authors
 
-Contributors names and contact info
-
-ex. Dominique Pizzie  
-ex. [@DomPizzie](https://twitter.com/dompizzie)
-
-## Version History
-
-* 0.2
-    * Various bug fixes and optimizations
-    * See [commit change]() or See [release history]()
-* 0.1
-    * Initial Release
-
-## License
-
-This project is licensed under the [NAME HERE] License - see the LICENSE.md file for details
-
-## Acknowledgments
-
-Inspiration, code snippets, etc.
-* [awesome-readme](https://github.com/matiassingers/awesome-readme)
-* [PurpleBooth](https://gist.github.com/PurpleBooth/109311bb0361f32d87a2)
-* [dbader](https://github.com/dbader/readme-template)
-* [zenorocha](https://gist.github.com/zenorocha/4526327)
-* [fvcproductions](https://gist.github.com/fvcproductions/1bfc2d4aecb01a834b46)
