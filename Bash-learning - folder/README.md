@@ -26,9 +26,6 @@ This is a crucial aspect of devops because:
 * Boost efficiency: Get more done with less typing!
 
 
-
-Then copy the final ssh command in the instance you made
-
 ## Notes
 Linux is an open source Operating system and is the backbone of computer systems and cloud infastructure
 
