@@ -4,9 +4,9 @@ This is the place where I add my notes, code and document my journey into becomi
 
 What im covering : 
 
-linux -  current progress...
+linux -  Completed
 
-Bash - not yet..
+Bash - in progress ..
 
 Git -  not yet..
 
