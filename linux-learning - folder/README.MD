@@ -2,16 +2,11 @@
 
 This is where i will document my learning with linux, the things i learnt with commands everything with linux also the challenges and solidifying my knowledge with over the wire bandit game
 
-## Description
+## Cheat sheet
 
 An in-depth paragraph about your project and overview of use.
 
 ## Getting Started
-
-### Dependencies
-
-* Describe any prerequisites, libraries, OS version, etc., needed before installing program.
-* ex. Windows 10
 
 ### Installing
 
@@ -167,7 +162,6 @@ chmod u+x,g+x, 0-r , adds excution to user and groups but removes read option fo
 ## Issues i faced
 
 A common issue i was facing with linux is initally installing an ubuntu linux machine, it was constantly causing errors in booting up ubuntu, thankfully for CoderCo they offered al alternative to open an EC2 instance from AWS and connect a ubuntu instance through that.
-
-Another issue i spent is through the over the wire bandit game not using documentation and google enough i battled too long trying to solve,
+Another issue i spent is through the over the wire bandit game not using documentation and google enough i battled too long trying to solve.
 
 
