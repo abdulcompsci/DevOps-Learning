@@ -145,7 +145,7 @@ Sudo commands:
 * sudo gpasswd -d newuser devops - removes user from group
 
 ### File permissions
-(https://github.com/abdulcompsci/DevOps-Learning/blob/eb66f6a1c753e3baeb0d961e8e1b60aa8929d2d9/linux-learning%20-%20folder/Screenshot%202025-07-04%20at%2001.11.44.png) 
+<img width="1239" alt="Image" src="https://github.com/user-attachments/assets/6386ce1b-62c3-4ace-bf47-f18e0113b28a" />
 
 
 ## Issues i faced
