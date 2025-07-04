@@ -3,8 +3,7 @@
 This is where i will document my learning with linux, the things i learnt with commands everything with linux also the challenges and solidifying my knowledge with over the wire bandit game
 
 ## Cheat sheet
-
-An in-depth paragraph about your project and overview of use.
+![Image](https://github.com/user-attachments/assets/68f3662b-977d-44d0-b895-dfdf581ef582)
 
 ## Getting Started
 
