@@ -146,6 +146,7 @@ Sudo commands:
 
 ### File permissions
 ! [rwx controls who read,write and excute files}
+(linux-learning - folder/Screenshot 2025-07-04 at 01.11.44.png) 
 
 
 
