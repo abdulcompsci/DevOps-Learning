@@ -65,10 +65,11 @@ Commands:
 * | pipe > passes argument of a first section command to the second
 * Mkdir-p - nested directories (directories within a directory)
 
+'''
 > operator overwrites existing content
 >> operator appends to existing content 
 CTRL D ends standard input 
-
+'''
 
 / root directory is the top level base in linux everything runs from here
  bin -> binary
