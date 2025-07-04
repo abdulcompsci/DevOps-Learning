@@ -146,6 +146,7 @@ Sudo commands:
 
 ### File permissions
 <img width="1239" alt="Image" src="https://github.com/user-attachments/assets/6386ce1b-62c3-4ace-bf47-f18e0113b28a" />
+Provides control and securtiy over files each rwx is binary 
 
 
 ## Issues i faced
