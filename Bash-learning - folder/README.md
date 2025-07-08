@@ -27,9 +27,22 @@ This is a crucial aspect of devops because:
 * Manipulate files
   
 
-
 ## Notes
-Linux is an open source Operating system and is the backbone of computer systems and cloud infastructure
+Shebang first line in any bash script in order to execute, tells OS how to interpret a script e.g bin/bash 
+#!/bin/bash anything after the #! is the interpretor/shell
+
+Shebang line if flexible for other interpretors to change it to python etc
+
+comments are used by a #  or a : '   ' , in order to specify any parts of the script that is not excutabke, they are way or explaining how parts of the script are run by providing context, this improves readability and foster collobration.
+
+Running scripts from anywhere - By adding a script to the path environment variable (tells the shell which directory to search when executing commands) you can access scripts globally without specifying location.
+
+variables is a method for storing values to access or modify values
+This is done though the $ command as a prefix to the variable you are trying to access
+
+Parameters are values passed in a script they are done this through after a name, they can be accessed through $1,$2, etc based on their position or $@ for all parameters.
+
+In order to use artihmetic expressions it is noted with a double parentheses
 
 It is widely used in networks,servers and is crucial some of its benefits are :
 * Cost effective
