@@ -44,6 +44,20 @@ Parameters are values passed in a script they are done this through after a name
 
 In order to use artihmetic expressions it is noted with a double parentheses
 
+```
+if condition
+then
+    #code to be excecuted
+fi
+
+eq = equals to
+ne = not equals to
+lt = less than
+gt = greater than
+le = less than or equal to
+ge = greater than or equal to
+```
+
 It is widely used in networks,servers and is crucial some of its benefits are :
 * Cost effective
 * Customisable 
