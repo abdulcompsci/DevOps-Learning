@@ -82,7 +82,8 @@ do
     #code to be executed
 done
 
-## real example
+
+### real example
 #!/bin/bash
 
 fruits=("apple" "banana" "cherry" "date")
