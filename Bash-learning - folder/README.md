@@ -123,6 +123,27 @@ done
 
 ```
 
+Break and continue change the behaviours of loops
+
+Break - forefully breaks the loop
+Continue - skips current iteration
+
+Break example
+
+```
+for ((i=1; i<5; i++))
+do
+    if [ $i -eq 3 ]
+    then
+        break
+    fi
+    echo "Number:$i"
+    
+done
+
+```
+
+
 It is widely used in networks,servers and is crucial some of its benefits are :
 * Cost effective
 * Customisable 
