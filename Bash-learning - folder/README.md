@@ -44,7 +44,7 @@ Parameters are values passed in a script they are done this through after a name
 
 In order to use artihmetic expressions it is noted with a double parentheses
 
-if conditions format
+if conditions format - if conditions are a set of conditions that need to be met in order for a block of code is executed 
 ```
 if condition
 then
