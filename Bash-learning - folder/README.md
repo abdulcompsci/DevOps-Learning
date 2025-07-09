@@ -75,6 +75,13 @@ operators
 || (OR)
 ```
 
+While loops format - while loops are a block of code which is repeated/iterated as long as a specific condiiton is true
+```
+while condition
+do
+    #code to be executed
+done
+
 It is widely used in networks,servers and is crucial some of its benefits are :
 * Cost effective
 * Customisable 
