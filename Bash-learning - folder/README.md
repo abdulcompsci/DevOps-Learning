@@ -44,10 +44,21 @@ Parameters are values passed in a script they are done this through after a name
 
 In order to use artihmetic expressions it is noted with a double parentheses
 
+if conditions format
 ```
 if condition
 then
     #code to be excecuted
+fi
+
+## with elif and else 
+if condition
+then
+    #code to be excecuted
+elif
+    #code to be excecuted
+else
+    echo " " 
 fi
 
 eq = equals to
@@ -56,6 +67,12 @@ lt = less than
 gt = greater than
 le = less than or equal to
 ge = greater than or equal to
+
+operators
+==
+!=
+&& (AND)
+|| (OR)
 ```
 
 It is widely used in networks,servers and is crucial some of its benefits are :
