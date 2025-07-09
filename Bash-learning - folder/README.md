@@ -126,6 +126,7 @@ done
 Break and continue change the behaviours of loops
 
 Break - forefully breaks the loop
+
 Continue - skips current iteration
 
 Break example
