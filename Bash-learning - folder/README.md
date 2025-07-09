@@ -81,6 +81,19 @@ while condition
 do
     #code to be executed
 done
+
+## real example
+#!/bin/bash
+
+fruits=("apple" "banana" "cherry" "date")
+index=0
+
+while [ $index -lt ${#fruits[@]} ]
+do
+    echo "Fruits: ${fruits[$index]}"
+    ((index++))
+
+done
 ```
 
 
