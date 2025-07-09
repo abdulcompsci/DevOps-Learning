@@ -108,17 +108,17 @@ done
 
 real example:
 
-for ((i=1; i<=10; i++))   # looping from 1 to less than or equal to 10, basically from 1-10, i is added 1 by each loop to track value of i
+for ((i=1; i<=10; i++))     # looping from 1 to less than or equal to 10, basically from 1-10, i is added 1 by each loop to track value of i
 do
-    echo "Number: $i"     # printing out number with the value of i 
+    echo "Number: $i"       # printing out number with the value of i 
 done
 
 
 ###Another example using seq command
 
-for number in $(seq 1 5)  # uses seq command from 1-5 output of each sequence iteration is passed in as input and the variable number
+for number in $(seq 1 5)       # uses seq command from 1-5 output of each sequence iteration is passed in as input and the variable number
 do 
-   echo "Number: $number"  # number variable from the loop is printed out 
+   echo "Number: $number"      # number variable from the loop is printed out 
 done
 
 ```
