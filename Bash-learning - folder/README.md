@@ -145,6 +145,18 @@ done
 ```
 
 
+
+Function format - Functions are encapsulated set of instructions that can be called any part of the program
+
+function_name () {
+
+```
+    #code block to be excuted
+}
+
+```
+
+
 It is widely used in networks,servers and is crucial some of its benefits are :
 * Cost effective
 * Customisable 
