@@ -181,8 +181,10 @@ Special paramters -
 - $0 (special variable for name of script)
 - $@  (all arguments)
 
-'''
 
+## example of special paramters
+
+```
 print_args() {
     echo "Number of arguments is $#"
     echo "total arguments are: $@"
@@ -193,7 +195,7 @@ print_args() {
 
 print_args "Bob" "Alice" "Charlie"
 
-'''
+```
 
 It is widely used in networks,servers and is crucial some of its benefits are :
 * Cost effective
