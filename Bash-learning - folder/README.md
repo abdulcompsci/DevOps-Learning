@@ -155,6 +155,23 @@ function_name () {
     #code block to be excuted
 }
 
+
+## examples :
+
+hello_world() {
+    echo "Hello world"
+}
+
+hello_world
+
+
+greet_person() {
+    local name="$1"
+    echo $name
+}
+
+greet_person "Abdul"
+
 ```
 
 
