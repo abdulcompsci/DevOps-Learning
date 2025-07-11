@@ -174,6 +174,26 @@ greet_person "Abdul"
 
 ```
 
+Paramters 2 types positional and special - special paramters provide more information
+
+Special paramters - 
+- $#  (Holds count of number of arguments in function)
+- $0 (special variable for name of script)
+- $@  (all arguments)
+
+'''
+
+print_args() {
+    echo "Number of arguments is $#"
+    echo "total arguments are: $@"
+    echo "script name is: $0"
+    echo "first argument is: $1"
+    echo "second argument is: $2"
+}
+
+print_args "Bob" "Alice" "Charlie"
+
+'''
 
 It is widely used in networks,servers and is crucial some of its benefits are :
 * Cost effective
