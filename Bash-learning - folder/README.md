@@ -203,6 +203,25 @@ User input allows our scripts to interact with users and make them more dynamic 
 
 read command is used to capture user input, depending on the value passed by user this can be further used for processing  
 
+## Piping in Bash 
+
+A powerful feature in bash that allows us to connect commands and pass the output of one command as input to another.
+for e.g
+
+```
+get_file_count() {
+    local directory=$1
+    local file_count
+
+    file_count=$(ls "$directory" | wc -l)
+
+    echo "Number of files in $directory":$file_count
+
+}
+
+get_file_count "./"
+
+```
 
 It is widely used in networks,servers and is crucial some of its benefits are :
 * Cost effective
