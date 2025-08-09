@@ -206,6 +206,7 @@ read command is used to capture user input, depending on the value passed by use
 ## Piping in Bash 
 
 A powerful feature in bash that allows us to connect commands and pass the output of one command as input to another.
+
 for e.g
 
 ```
