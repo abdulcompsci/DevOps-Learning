@@ -259,6 +259,45 @@ set -eux is a way of combiniing set -e, set -u and set -x in a single command
 
 set provides more tools such as set -o nounset (runs same as set -u), set -o errexit (runs same as set -e), set -o pipefail 
 
+## Files
+
+Read files code example :
+
+```
+proces_file() {
+    local file_path=$1
+
+    cat "$file_path" | while IFS= read -r line; do 
+        echo "processing line: $line
+    done
+
+}
+
+```
+
+# writing a file by redirection
+```
+
+write_to_file() {
+    local file_path="$1 # this is the file path where we want to write data
+    local data="$2" # this is the data we want to write to the file
+
+    echo "$data" > "$file_path" # this will overwrite the file if it exists, or create a new one if it doesn't
+    # single redirect will make a new file or overwrite the exising file 2 append will add to its exisiing data
+'
+
+
+file check sums is a way to verify the integrity of a file by comparing its hash value with a known good value
+
+calculate_md5sum() {
+    local file_path="$1"
+    md5sum "$file_path"
+}
+
+calculate_md5sum "input.txt"
+
+```
+
 
 It is widely used in networks,servers and is crucial some of its benefits are :
 * Cost effective
