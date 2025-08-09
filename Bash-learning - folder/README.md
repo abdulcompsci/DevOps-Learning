@@ -224,6 +224,25 @@ get_file_count "./"
 
 ```
 
+## Exit codes
+
+Exit codes are numeric value that represents whether the command or script completed successfully or not. An exit code of 0 means the script ran successfully and any value other means an error has occured such as 1 or 120.
+
+This can be utilised to check conditions for example in the code below 
+
+```
+#echo $? , $? means the exit code of the last command executed
+
+command  -v git 2>/dev/null
+
+if [[ $? -ne 0 ]]; then
+    echo "git is not installed"
+else
+    echo "git has been installed"
+fi
+
+```
+
 It is widely used in networks,servers and is crucial some of its benefits are :
 * Cost effective
 * Customisable 
