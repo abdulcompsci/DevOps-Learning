@@ -196,6 +196,12 @@ print_args() {
 print_args "Bob" "Alice" "Charlie"
 
 ```
+## User inputs
+
+User input allows our scripts to interact with users and make them more dynamic and responsive
+
+read comand is used to capture user input, depending on the value passed by user this can be further used 
+
 
 It is widely used in networks,servers and is crucial some of its benefits are :
 * Cost effective
