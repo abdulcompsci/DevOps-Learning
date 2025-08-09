@@ -275,7 +275,8 @@ proces_file() {
 
 ```
 
-# writing a file by redirection
+
+
 ```
 
 write_to_file() {
@@ -284,8 +285,10 @@ write_to_file() {
 
     echo "$data" > "$file_path" # this will overwrite the file if it exists, or create a new one if it doesn't
     # single redirect will make a new file or overwrite the exising file 2 append will add to its exisiing data
-'
+```
 
+
+```
 
 file check sums is a way to verify the integrity of a file by comparing its hash value with a known good value
 
