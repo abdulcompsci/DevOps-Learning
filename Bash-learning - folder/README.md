@@ -243,6 +243,23 @@ fi
 
 ```
 
+## Set commands
+
+Set provides various ways that can help us in our code for troubleshooting/debugging
+
+Set -e option would stop terminating a script as soon as non zero exit code is found , the code after wont execute, this can be used to handle more complex scripts
+
+set -u is another option that will terminate script if variable is undefined and is being called
+
+set -x is a useful tool to print the commands being excuted before they are run in the script useful for troubleshooting
+
+set +x can be used to seperate parts of script that doesnt need debugging
+
+set -eux is a way of combiniing set -e, set -u and set -x in a single command
+
+set provides more tools such as set -o nounset (runs same as set -u), set -o errexit (runs same as set -e), set -o pipefail 
+
+
 It is widely used in networks,servers and is crucial some of its benefits are :
 * Cost effective
 * Customisable 
