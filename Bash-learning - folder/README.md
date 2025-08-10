@@ -78,6 +78,7 @@ operators
 ## While loops 
 
 - while loops are a block of code which is repeated/iterated as long as a specific condiiton is true
+  
 ```
 while condition
 do
@@ -102,7 +103,7 @@ done
 ## For loops 
 
 - repeat a block of code for a specifed amount of iterations/times
-- 
+  
 ```
 for variable in sequence
 do
