@@ -28,19 +28,19 @@ This is a crucial aspect of devops because:
   
 
 ## Notes
-Shebang first line in any bash script in order to execute, tells OS how to interpret a script e.g bin/bash 
+- Shebang first line in any bash script in order to execute, tells OS how to interpret a script e.g bin/bash 
 #!/bin/bash anything after the #! is the interpretor/shell
 
-Shebang line if flexible for other interpretors to change it to python etc
+- Shebang line if flexible for other interpretors to change it to python etc
 
-comments are used by a #  or a : '   ' , in order to specify any parts of the script that is not executable, they are way or explaining how parts of the script are run by providing context, this improves readability and foster collobration.
+- comments are used by a #  or a : '   ' , in order to specify any parts of the script that is not executable, they are way or explaining how parts of the script are run by providing context, this improves readability and foster collobration.
 
-Running scripts from anywhere - By adding a script to the path environment variable (tells the shell which directory to search when executing commands) you can access scripts globally without specifying location.
+- Running scripts from anywhere - By adding a script to the path environment variable (tells the shell which directory to search when executing commands) you can access scripts globally without specifying location.
 
-variables is a method for storing values to access or modify values
-This is done though the $ command as a prefix to the variable you are trying to access
+- variables is a method for storing values to access or modify values
+  This is done though the $ command as a prefix to the variable you are trying to access
 
-Parameters are values passed in a script they are done this through after a name, they can be accessed through $1,$2, etc based on their position or $@ for all parameters.
+- Parameters are values passed in a script they are done this through after a name, they can be accessed through $1,$2, etc based on their    position or $@ for all parameters.
 
 In order to use artihmetic expressions it is noted with a double parentheses
 
@@ -240,9 +240,9 @@ get_file_count "./"
 
 ## Exit codes
 
-Exit codes are numeric value that represents whether the command or script completed successfully or not. An exit code of 0 means the script ran successfully and any value other means an error has occured such as 1 or 120.
+- Exit codes are numeric value that represents whether the command or script completed successfully or not. An exit code of 0 means the script ran successfully and any value other means an error has occured such as 1 or 120.
 
-This can be utilised to check conditions for example in the code below 
+- This can be utilised to check conditions for example in the code below 
 
 ```
 #echo $? , $? means the exit code of the last command executed
