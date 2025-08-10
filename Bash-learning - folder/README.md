@@ -131,11 +131,11 @@ done
 
 ## Break & Continue
 
-Break and continue change the behaviours of loops
+- Break and continue change the behaviours of loops
 
-Break - forefully breaks the loop
+- Break - forefully breaks the loop
 
-Continue - skips current iteration
+- Continue - skips current iteration
 
 Break example
 
@@ -188,7 +188,7 @@ greet_person "Abdul"
 
 ## Paramters
 
-Paramters 2 types positional and special - special paramters provide more information
+- Paramters 2 types positional and special - special paramters provide more information
 
 Special paramters - 
 - $#  (Holds count of number of arguments in function)
@@ -213,13 +213,13 @@ print_args "Bob" "Alice" "Charlie"
 
 ## User inputs
 
-User input allows our scripts to interact with users and make them more dynamic and responsive
+- User input allows our scripts to interact with users and make them more dynamic and responsive
 
-read command is used to capture user input, depending on the value passed by user this can be further used for processing  
+- read command is used to capture user input, depending on the value passed by user this can be further used for processing  
 
 ## Piping in Bash 
 
-A powerful feature in bash that allows us to connect commands and pass the output of one command as input to another.
+- A powerful feature in bash that allows us to connect commands and pass the output of one command as input to another.
 
 for e.g
 
@@ -261,17 +261,17 @@ fi
 
 Set provides various ways that can help us in our code for troubleshooting/debugging
 
-Set -e option would stop terminating a script as soon as non zero exit code is found , the code after wont execute, this can be used to handle more complex scripts
+- Set -e option would stop terminating a script as soon as non zero exit code is found , the code after wont execute, this can be used to handle more complex scripts
 
-set -u is another option that will terminate script if variable is undefined and is being called
+- set -u is another option that will terminate script if variable is undefined and is being called
 
-set -x is a useful tool to print the commands being excuted before they are run in the script useful for troubleshooting
+- set -x is a useful tool to print the commands being excuted before they are run in the script useful for troubleshooting
 
-set +x can be used to seperate parts of script that doesnt need debugging
+- set +x can be used to seperate parts of script that doesnt need debugging
 
-set -eux is a way of combiniing set -e, set -u and set -x in a single command
+- set -eux is a way of combiniing set -e, set -u and set -x in a single command
 
-set provides more tools such as set -o nounset (runs same as set -u), set -o errexit (runs same as set -e), set -o pipefail 
+- set provides more tools such as set -o nounset (runs same as set -u), set -o errexit (runs same as set -e), set -o pipefail 
 
 ## Files
 
@@ -304,7 +304,7 @@ write_to_file() {
 
 ```
 
-file check sums is a way to verify the integrity of a file by comparing its hash value with a known good value
+- file check sums is a way to verify the integrity of a file by comparing its hash value with a known good value
 
 calculate_md5sum() {
     local file_path="$1"
