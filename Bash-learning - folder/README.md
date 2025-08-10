@@ -33,7 +33,7 @@ Shebang first line in any bash script in order to execute, tells OS how to inter
 
 Shebang line if flexible for other interpretors to change it to python etc
 
-comments are used by a #  or a : '   ' , in order to specify any parts of the script that is not excutabke, they are way or explaining how parts of the script are run by providing context, this improves readability and foster collobration.
+comments are used by a #  or a : '   ' , in order to specify any parts of the script that is not executable, they are way or explaining how parts of the script are run by providing context, this improves readability and foster collobration.
 
 Running scripts from anywhere - By adding a script to the path environment variable (tells the shell which directory to search when executing commands) you can access scripts globally without specifying location.
 
@@ -75,7 +75,9 @@ operators
 || (OR)
 ```
 
-While loops format - while loops are a block of code which is repeated/iterated as long as a specific condiiton is true
+## While loops 
+
+- while loops are a block of code which is repeated/iterated as long as a specific condiiton is true
 ```
 while condition
 do
@@ -97,7 +99,10 @@ do
 done
 ```
 
-For loops - repeat a block of code for a specifed amount of iterations/times
+## For loops 
+
+- repeat a block of code for a specifed amount of iterations/times
+- 
 ```
 for variable in sequence
 do
@@ -123,6 +128,8 @@ done
 
 ```
 
+## Break & Continue
+
 Break and continue change the behaviours of loops
 
 Break - forefully breaks the loop
@@ -146,7 +153,11 @@ done
 
 
 
-Function format - Functions are encapsulated set of instructions that can be called any part of the program
+## Functions
+
+- Functions are encapsulated set of instructions that can be called any part of the program
+
+An example below 
 
 ```
 function_name () {
@@ -174,6 +185,8 @@ greet_person "Abdul"
 
 ```
 
+## Paramters
+
 Paramters 2 types positional and special - special paramters provide more information
 
 Special paramters - 
@@ -182,7 +195,7 @@ Special paramters -
 - $@  (all arguments)
 
 
-## example of special paramters
+example of special paramters
 
 ```
 print_args() {
