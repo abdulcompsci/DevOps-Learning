@@ -3,18 +3,6 @@
 This is where i will document my learning for Git module thanks to CoderCo, the things i learn with git in modern production environments for software engineers, and devOps etc to to solidify my knowledgeThis serves as a detailed record of my git journeycovering the fundamentals.
 
 
-
-## Getting Started
-```
-1. Shebang (#!):
-- The first line in your script: #!/bin/bash
-- It tells the computer to use Bash to run the script.
-
-2. Run Your Script:
-- Make it executable: chmod +x your_script.sh (You learn this in the Linux Module)
-- Run it: ./your_script.sh
-```
-
 ### Introduction to Git
 Bash is a command line tool to interact with your computer
 Bash script is a file containing multiple commands you want the computer to excute automatically
