@@ -15,12 +15,10 @@ This is a crucial aspect of devops because:
   
 
 ## Notes
-- Shebang first line in any bash script in order to execute, tells OS how to interpret a script e.g bin/bash 
-#!/bin/bash anything after the #! is the interpretor/shell
-
-- Shebang line if flexible for other interpretors to change it to python etc
-
-- comments are used by a #  or a : '   ' , in order to specify any parts of the script that is not executable, they are way or explaining how parts of the script are run by providing context, this improves readability and foster collobration.
+- <img width="1166" height="713" alt="Image" src="https://github.com/user-attachments/assets/8e6e0bfd-e00b-475c-b0c9-7710df16152f" /> 
+-
+-
+- 
 
 - Running scripts from anywhere - By adding a script to the path environment variable (tells the shell which directory to search when executing commands) you can access scripts globally without specifying location.
 
