@@ -28,8 +28,9 @@ This is a crucial aspect of devops because:
 - .git/index - temporary zone between editing zone and commiting
 
 
-Git Common commands 
 
+Git Common commands 
+<img width="1290" height="727" alt="Image" src="https://github.com/user-attachments/assets/aec9bb36-cea4-4154-aa86-1ba84eddd0f5" />
 
 
 
