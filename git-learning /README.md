@@ -17,14 +17,22 @@ This is a crucial aspect of devops because:
 ## Notes
 <img width="1166" height="713" alt="Image" src="https://github.com/user-attachments/assets/8e6e0bfd-e00b-475c-b0c9-7710df16152f" /> 
 
-.git folder - a hiden folder in every repository
-Brain of your project contains all configuration data, branches etc
+
+
+
+.git folder - a hiden folder in every repository. Brain of your project contains all configuration data, branches etc
 
 - .git/refs/ - where git stores branches and tags (Where you switch to different branchs)
 - .git/objects/ - Where git keeps every commit stored by sha hash
 - .git/config - specifc repo settings
 - .git/head - tells git which branch your commiting from
-- .git/index - temporary zone between editing zone and commiting 
+- .git/index - temporary zone between editing zone and commiting
+
+
+
+
+
+
 
 - Running scripts from anywhere - By adding a script to the path environment variable (tells the shell which directory to search when executing commands) you can access scripts globally without specifying location.
 
