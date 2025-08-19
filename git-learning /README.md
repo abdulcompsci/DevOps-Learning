@@ -91,5 +91,122 @@ in order to visuaise branches it git you can use these commands very useful to d
 merge - preverse history and cleans up filen creates a new commit
 rebase rewrties history and cleans commit in your branch more ideal for solo working before pull requests
 
+
+## Advanced git usage 
+
+
+git stash and pop
+
+- Anot ready to commit , temporray stage of changes
+
+hides all uncommited changes like a pause
+
+Stash list shows all stashes
+
+git stash apply - reapply latest stash (keeps stash)
+git stash pop - reapply and delete stash
+
+
+This is used when when switching branches mid task - great when your moving branch but not ready to commit 
+
+
+reset, revert and cherry pick 
+
+
+git revert - creates a commit that undoes another commit - like going back in history or undoing commit without changing anything 
+
+- safe for shared history
+- used in production
+
+git reset move back in changes locally 
+
+- move branch pointer backwards
+  
+- 3 types,
+- soft - moves pointer backwards but keeps your changes changed
+- mixed - moves pointer backwards and unstages your changes 
+- hard - nuke everything (careful) moves changes completely/rerite hisstory
+
+
+git cherry-pick - choose a commit you want to add to your branch - avoids merging whole code to your branch
+
+- useful for hotfixes or targeted changes
+
+
+Forks and pull requests
+
+Forks - a copy of someone work under your name
+Clone - clone fork to your changes locally
+PR/MR - made changes to fork/branch , proposal to merge your changes to their branch or to main
+
+original repo owner can review, comment and merge 
+
+
+Colloborating practices
+
+- Always start off by branching to isolate work
+- Push to remote and open pull requests
+- Assisgn reviewers, use Github UI for comments
+- Resolve conflicts before merging amongst peers
+- Use issues, projects and discussions to track work
+- Keep commits focused and clean
+
+
+  typical workflow
+
+
+  1. developer pulls latest code or clones repo
+               
+  2. creates feature branch
+
+  3. works locally -> commits -> pushes branch
+
+  4. Opens a PR/MR -> review and merge
+
+  5. Team sync regularly via git pull --rebase or merge
+
+  
+Trunk based development
+
+All devs commit to main or very short lived branches
+
+- Heavy CI/CD testing to test commits and quality of code 
+- used in fast paced orgs such as (google, meta etc)
+
+  
+## Git best practices
+
+
+Commit hygiene & best practices 
+
+Write good commit messages e.g fixed nav bar allignment 
+Use squashing before merging PRs - i.e when you have several commits relating to same feature squash it into 1 clean commit before merging to main to make it easier for debugging and clean history 
+One logical change per commit 
+Avoid noisy merges such as not providing clear messages etc
+
+
+Pre commit & Automation
+
+- Run linters/tests before commiting (pre-commit, Husky, tflint/sec etc)
+- Prevent broken code before entering the repo
+- Hook into CI/CD Pipelines for formatting,testing and scanning
+
+- These tools are added so when you do git.add it informs you of any concerns or errors before it gets pushed, for example any secrets that might accidently being pushed to main and prevents broken code to enter the repo. Therefore it allowsd you to push clean commits that are meaningful and look good too your pull requests
+
+
+Common mistakes 
+
+- not pulling changes before pushing
+- forcing push to other branches (can rewrite other peoples commits)
+- Commiting secrets such as credentials, aws keys, etc, hackers can spot vunerabilities
+- Merging without review - check the code properly 
+- Not using .gitignore properly. Not commiting secrets or sensitive files
+
+  
+
+
+
+
+
 ## Issues i faced
 
