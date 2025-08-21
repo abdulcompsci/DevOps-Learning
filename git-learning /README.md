@@ -203,9 +203,40 @@ Common mistakes
 - Not using .gitignore properly. Not commiting secrets or sensitive files
 
   
+Git at scale
+
+- Monorepo strategies - thousands of commits it will simplify
+- Sparse checkout only working on part repos
+- large file storage (git LFS ) - massive files with pointers
+- clean up legacy history (filter branch, filter repo)
+- sub modules vs sub trees in microservice repos 
+- Selective CI build
+- Commit linting 
+- GitOps style developement  (e.g ArgoCD, flux)
+- server side git hooks (e.g pre commit, lefthook) 
 
 
+git security and hygiene
 
+prevents secret leaks in commits - use tools like git secret, git ignore, trufflehog
+
+cleaning secrets from history
+
+audit logs - check using logs 
+
+
+## Git hands on
+
+git remote add origin <url> - link local -> github
+
+git push u origin main - send your work to the cloud
+
+git pull - pulls latest version of code 
+
+when cloning a repo as a local copy you have 2 options either 
+
+1. SSH, Secure asks for no password
+2. HTTPS , easy but asks for credentials
 
 
 ## Issues i faced
