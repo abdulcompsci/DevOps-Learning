@@ -239,5 +239,10 @@ when cloning a repo as a local copy you have 2 options either
 2. HTTPS , easy but asks for credentials
 
 
+SSH - 2 keys 
+private - share this with no one so you cannot get access to it locally
+
+public key - something to use to verify 
+
 ## Issues i faced
 
