@@ -244,5 +244,35 @@ private - share this with no one so you cannot get access to it locally
 
 public key - something to use to verify 
 
+
+undoing in git 
+
+git restore filename - helps if you made changes to file and want to remove those changes
+
+another case is made file changes, moved to staged area and want to remove the change off staged area
+
+using this command ->     git restore --staged undo.txt
+
+
+commit been made from your branch but hasnt been pushed yet and i dont want - 
+
+1st way is git reset 
+
+git reset is 2 ways soft and hard
+
+soft reset - git reset --soft HEAD~1 - moves back changes by 1
+
+git reset mixed way - Git % git reset --mixed HEAD~1 - unstages but keeps those changes in the file
+
+delete commit and changes completely - by git reset hard
+Git % git reset --hard HEAD~1
+
+Last case is something been commited and to main which you want to undo
+
+git revert HEAD - this rolls back changes to last previously safely which is good for shared branches 
+
+
+
+
 ## Issues i faced
 
