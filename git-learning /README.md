@@ -271,8 +271,25 @@ Last case is something been commited and to main which you want to undo
 
 git revert HEAD - this rolls back changes to last previously safely which is good for shared branches 
 
+git log --oneline - this checks previous commit history
+git reflog- shows every single change
 
 
 
+Git stash - temporary holds changes in staging area - useful when moving branches 
+
+ git stash push -m "WIP: feature.txt changes"
+
+ git stash list - shows stash lists
+
+ to reapply stash git stash apply
+
+ git stash pop - to remove stash
+
+ git stash clear - to remove all stashes
+
+
+ 
+ 
 ## Issues i faced
 
