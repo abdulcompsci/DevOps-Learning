@@ -298,6 +298,12 @@ Git % git rebase -i HEAD~3  ( the head indicates the last commits)
 git log --oneline helps to see commits in oneline and see those changes
 
 
+git cherry pick is very useful when you want a commit to be picked to your branch this is useful when you want a specific code to your workflow.
+
+This is done by commit code from git log --oneline and using this command       git cherry-pick 47e1f3b
+
+
+
  
  
 ## Issues i faced
