@@ -289,6 +289,15 @@ Git stash - temporary holds changes in staging area - useful when moving branche
  git stash clear - to remove all stashes
 
 
+If you have multiple commits for the same work/file you can squash multiple commits into one single, this helps make the commit history clear and helpful when debugging
+
+this is done via rebase 
+
+Git % git rebase -i HEAD~3  ( the head indicates the last commits)
+
+git log --oneline helps to see commits in oneline and see those changes
+
+
  
  
 ## Issues i faced
